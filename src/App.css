@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.paginador {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.paginador div nav {
+  text-align: center;
+  padding-left: 30rem;
+}
+
+#buscarInput {
+  width: 50rem;
+  color: rgb(76, 118, 233);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0;
+
+  background: linear-gradient(30deg, rgb(107, 26, 238, .8), rgb(60, 86, 231, .8), rgb(35, 166, 213, .8), rgb(35, 213, 171, .8));
+
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#con-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login {
+  margin-top: 7rem;
+  padding: 1rem;
+  width: 25rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+
+  box-shadow: -1px 1px 5px 7px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px 1px 5px 7px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 1px 5px 7px rgba(0, 0, 0, 0.2);
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#resultados{
+  font-size: 3rem;
+  color: aliceblue;
+  padding-bottom: 1rem;
+}
+
